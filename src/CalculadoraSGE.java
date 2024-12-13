@@ -22,4 +22,11 @@ public class CalculadoraSGE {
         return (double) num1 / num2;
     }
 
+    public static Double CalcularRaizCuadrada(Integer num) {
+        if (num < 0) {
+            System.out.println("No se puede realizar entre un numero negativo.");
+        }
+        return Math.sqrt(num);
+    }
+
 }
